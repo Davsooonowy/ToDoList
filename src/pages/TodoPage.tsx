@@ -3,6 +3,7 @@ import { TextField, Button, List, Typography, Accordion, AccordionSummary, Accor
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useTodoStore } from '../store/todoStore';
 import TodoItem from '../components/TodoItem';
+import '../styles/TodoPage.css';
 
 const TodoPage = () => {
   const [text, setText] = useState('');
